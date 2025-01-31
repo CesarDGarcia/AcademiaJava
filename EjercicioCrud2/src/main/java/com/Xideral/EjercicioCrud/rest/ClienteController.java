@@ -80,7 +80,7 @@ public class ClienteController {
 
         clienteService.deleteById(theId);
 
-        return "Deleted Cliente id - " + theId;
+        return "Deleted cliente id - " + theId;
     }
 
 	
